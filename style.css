@@ -15,3 +15,11 @@
 div:not(.wrapper) {
     margin-top: 5rem;
 }
+
+.form > * {
+    margin-top: 2rem;
+}
+
+input:nth-of-type(4) {
+    margin-bottom: 2rem;
+}
