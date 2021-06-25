@@ -1,4 +1,4 @@
-const API_URL = "https://express-basics.netlify.app/.netlify/functions/app/api/posts";
+const API_URL = "https://express-basics.netlify.app/.netlify/functions/script/api/posts";
 
 
 
