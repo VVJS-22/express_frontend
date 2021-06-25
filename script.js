@@ -1,5 +1,5 @@
-const API_URL = "http://localhost:3000/api/posts";
-const BASE_URL = "http://localhost:3000/";
+const API_URL = "https://express-basics.netlify.app/api/posts";
+const BASE_URL = "https://express-basics.netlify.app/";
 
 window.onload = () => {
     getPosts();
