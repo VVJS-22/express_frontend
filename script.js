@@ -1,4 +1,4 @@
-const API_URL = "https://express-basics.netlify.app/.netlify/functions/script/api/posts";
+const API_URL = "http://localhost:9000/.netlify/functions/script/api/posts";
 
 
 
@@ -13,8 +13,8 @@ const getPosts = () => {
     }).then((response) => {
         return response.json();
     }).then((data) => {
-        console.log(data);
-        return showData(data);
+        console.log(data.results);
+        return showData(data.results);
     })
 }
 
@@ -65,9 +65,10 @@ const getValues = () => {
             method: "POST",
             body: data
         }).then(() => {
-            setTimeout(()=> {
-                location.reload();
-            }, 1000)
+            // setTimeout(()=> {
+            //     location.reload();
+            // }, 1000)
+            console.log("ok")
         });
     }
     }
