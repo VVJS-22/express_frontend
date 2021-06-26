@@ -65,10 +65,9 @@ const getValues = () => {
             method: "POST",
             body: data
         }).then(() => {
-            // setTimeout(()=> {
-            //     location.reload();
-            // }, 1000)
-            console.log("ok")
+            setTimeout(()=> {
+                location.reload();
+            }, 1000)
         });
     }
     }
