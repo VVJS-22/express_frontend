@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:9000/.netlify/functions/script/api/posts";
+const API_URL = "https://express-basics-byjs.herokuapp.com/api/posts";
 
 
 
