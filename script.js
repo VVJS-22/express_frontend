@@ -63,10 +63,6 @@ const getValues = () => {
 
         fetch(API_URL, {
             method: "POST",
-            header: {
-                "Access-Control-Allow-Headers": "Content-Type",
-                "Access-Control-Allow-Origin": "*"
-            },
             body: data
         }).then(() => {
             setTimeout(()=> {
